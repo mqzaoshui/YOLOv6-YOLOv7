@@ -3,7 +3,7 @@
 在此感谢两位作者--(https://github.com/meituan/YOLOv6) 和 (https://github.com/WongKinYiu/yolov7)
 
 ## 简介
-YOLOv6 和 YOLOv7相关改进和提升，可以参考 (http://confluence.polarise.cn/pages/viewpage.action?pageId=37915539）
+YOLOv6 和 YOLOv7相关改进和提升，可以参考 (http://confluence.polarise.cn/pages/viewpage.action?pageId=37915539)
 
 ## 训练
 
