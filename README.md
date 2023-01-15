@@ -1,9 +1,9 @@
 # YOLOv6 && YOLOv7
 本项目基于YOLOv6和YOLOv7架构实现 \
-在此感谢两位作者--(https://github.com/meituan/YOLOv6)和(https://github.com/WongKinYiu/yolov7)
+在此感谢两位作者--(https://github.com/meituan/YOLOv6) 和 (https://github.com/WongKinYiu/yolov7)
 
 ## 简介
-YOLOv6 和 YOLOv7相关改进和提升，可以参考(http://confluence.polarise.cn/pages/viewpage.action?pageId=37915539）
+YOLOv6 和 YOLOv7相关改进和提升，可以参考 (http://confluence.polarise.cn/pages/viewpage.action?pageId=37915539）
 
 ## 训练
 
@@ -171,16 +171,21 @@ python yolov7/use/test.py --data data/coco.yaml --img 640 --batch 32 --conf 0.00
 ``` shell
 python yolov6/tools/infer.py --weights yolov6s.pt --source data/images
 ```
+图片示意：
+
 <div align="center">
     <a href="./">
         <img src="images/YOLOv6-infer.jpg" width="50%"/>
     </a>
 </div>
 
+
 #### YOLOv7
 ``` shell
 python yolov7/use/detect.py --weights yolov7.pt --conf 0.25 --img-size 640 --source inference/images/
 ```
+图片示意：
+
 <div align="center">
     <a href="./">
         <img src="images/YOLOv7-infer.jpg" width="50%"/>
@@ -217,7 +222,7 @@ python yolov7/qua/test_trt.py -e ${trt engine path} \
                               -o ${output images path} \
                               --end2end ${if engine is end2end}
 ```
-可得到推理平均时间和推理结果图片，如下
+可得到推理平均时间和推理结果图片，推理结果图片示意如下
 <div align="center">
     <a href="./">
         <img src="images/YOLOv7-INT8.jpg" width="50%"/>
